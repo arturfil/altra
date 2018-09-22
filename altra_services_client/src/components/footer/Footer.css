@@ -1,0 +1,48 @@
+#footer {
+  border-top-color: black;
+  background: rgba(14, 11, 11, 0.865);
+  height: 500px;
+}
+
+#footer p {
+  color: rgba(255, 255, 255, 0.728);
+}
+
+.footer-contact,
+p {
+  color: rgba(255, 255, 255, 0.386);
+  border-bottom-color: rgb(73, 232, 179) solid 1px;
+  font-weight: 600;
+}
+
+.footer-title {
+  padding-top: 100px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 100;
+}
+
+.mt-footer {
+  margin-top: 40px;
+}
+
+.footer-block {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.footer-block,
+p {
+  color: rgba(255, 255, 255, 0.934);
+}
+
+.footer-line {
+  padding: 10px;
+  color: white;
+  width: 600px;
+  background: rgb(73, 232, 179) solid 1px;
+}
+
+i {
+  color: white;
+}
