@@ -39,7 +39,7 @@ class Navbar extends Component {
                 <li className="nav-item">
                   <Link
                     className="nav-link hov-anim a-links"
-                    to="/aboutUs"
+                    to="/ourServices"
                     style={{ color: 'rgba(0, 0, 0, 0.845)' }}
                   >
                     Services
@@ -56,7 +56,7 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link
-                    to="/placeOrders"
+                    to="/contactUs"
                     className="nav-link hov-anim a-links"
                     style={{ color: 'rgba(0, 0, 0, 0.845)' }}
                   >
@@ -65,7 +65,7 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item ">
                   <Link
-                    to="/contactUs"
+                    to="/Blog"
                     className="nav-link hov-anim a-links"
                     style={{ color: 'rgba(0, 0, 0, 0.845)' }}
                   >

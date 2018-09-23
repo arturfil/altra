@@ -5,6 +5,10 @@ import { BrowserRouter, Route } from 'react-router-dom';
 import Navbar from './components/layout/Navbar';
 import Landing from './components/landing/Landing';
 import Footer from './components/footer/Footer';
+import ContactUs from './components/contact-us/ContactUs';
+import OurServices from './components/our-services/OurServices';
+
+import './App.css';
 
 class App extends Component {
   render() {
@@ -13,6 +17,8 @@ class App extends Component {
         <div>
           <Navbar />
           <Route exact path="/" component={Landing} />
+          <Route exact path="/contactUs" component={ContactUs} />
+          <Route exact path="/ourServices" component={OurServices} />
           <Footer />
         </div>
       </BrowserRouter>

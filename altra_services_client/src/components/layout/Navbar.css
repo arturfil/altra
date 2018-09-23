@@ -1,8 +1,6 @@
 nav {
   background-color: rgb(255, 255, 255);
   position: fixed;
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
 nav {
@@ -11,13 +9,15 @@ nav {
 
 .navbar-brand {
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 800;
+  font-size: 45px;
+  letter-spacing: -5px;
 }
 
 .a-links {
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 .logo {
@@ -30,7 +30,7 @@ nav {
   content: '';
   display: block;
   width: 0;
-  height: 1px;
+  height: 2px;
   background: rgb(254, 129, 52);
   transition: width 0.3s;
 }
