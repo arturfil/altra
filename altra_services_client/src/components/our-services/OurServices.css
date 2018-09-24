@@ -1,54 +1,57 @@
-.h2-ourservices {
-  padding-top: 130px;
-  font-size: 30px;
-  color: white;
-}
-
-.title {
-  text-transform: uppercase;
-}
-
-.intro {
-  color: grey;
-  font-weight: 100;
-  font-size: 19px;
-  margin: 0 20%;
+.s-title {
+  margin-top: 80px;
   text-align: justify;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-size: 50px;
 }
 
-.title-paragraphs {
+.p-title {
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-weight: 100;
+  letter-spacing: -1px;
+  color: grey;
+}
+
+.services-block1 {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(15, 235, 132);
+  color: whitesmoke;
+}
+
+.services-block2 {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(238, 105, 75);
+  color: whitesmoke;
+}
+
+.services-block3 {
+  text-align: center;
+  margin: 40px 0;
+  background-color: rgb(58, 189, 245);
+  color: whitesmoke;
+}
+
+.services-block h2 {
   margin-top: 40px;
   text-transform: uppercase;
-  text-align: center;
+  font-weight: 200;
+  letter-spacing: 3px;
 }
 
-.os-icon {
-  color: rgb(17, 17, 111);
-  margin-bottom: 20px;
+.services-p {
+  margin-top: 40px;
+  text-align: justify;
+  color: grey;
+  font-weight: 200;
+  font-size: 20px;
 }
 
-.info-block,
-p {
-  color: black;
-}
-
-.title {
-  margin-top: 80px;
-  color: black;
-}
-
-.basic {
-  border-color: black;
-  color: black;
-  width: 40px;
-}
-
-.m2 {
-  border: solid lightgrey 1px;
-}
-
-.img-size {
-  margin: 40px 10px 0 10px;
-  width: 350px;
-  height: 220px;
+.s-image {
+  height: 400px;
+  width: 500px;
 }

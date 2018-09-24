@@ -9,14 +9,14 @@ class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar mb-4 navbar-expand-sm navbar-light">
+        <nav className="navbar navbar-expand-sm navbar-light">
           <div className="container">
             <a
               href="/"
               className="navbar-brand elegant btn-landing"
               style={{ color: 'rgba(0, 0, 0, 0.845)' }}
             >
-              Altra Services
+              Altra
             </a>
             <button
               className="navbar-toggler"
@@ -48,7 +48,7 @@ class Navbar extends Component {
                 <li className="nav-item">
                   <Link
                     className="nav-link hov-anim a-links"
-                    to="/services"
+                    to="/aboutUs"
                     style={{ color: 'rgba(0, 0, 0, 0.845)' }}
                   >
                     About Us
@@ -64,13 +64,13 @@ class Navbar extends Component {
                   </Link>
                 </li>
                 <li className="nav-item ">
-                  <Link
+                  {/* <Link
                     to="/Blog"
                     className="nav-link hov-anim a-links"
                     style={{ color: 'rgba(0, 0, 0, 0.845)' }}
                   >
                     Blog
-                  </Link>
+                  </Link> */}
                 </li>
               </ul>
             </div>

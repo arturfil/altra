@@ -1,91 +1,68 @@
 import React, { Component } from 'react';
 
 import './OurServices.css';
+import seoImage from '../../img/seo-marketing.jpeg';
+import webDevelopment from '../../img/web_development.jpg';
+import mobileApp from '../../img/mobile_application.jpeg';
 
 class OurServices extends Component {
   render() {
     return (
       <div>
-        <div className="our-services mt-5">
-          <div className="dark-overlay landing-inner text-light">
-            <div className="container">
-              <div className="row">
-                <div className="col-md-12 text-center">
-                  <p className="mt-5 mb-4 h2-ourservices p-ourservices">
-                    We buy all types of machinery and machinery parts
-                  </p>
-                </div>
-                <div className="container title" />
+        <div className="container">
+          <h2 className="s-title">Our Services</h2>
+          <p className="p-title">
+            All Our Services Are custom made to specific client's needs!
+          </p>
+        </div>
+        <div className="container">
+          <div className="row services-block  ">
+            <div className="col-md-6">
+              <img className="s-image" src={webDevelopment} alt="" />
+            </div>
+            <div className="col-md-6">
+              <h2>Web Development</h2>
+              <p className="services-p">
+                We create and cater websites and web applications custom made to
+                client's specific needs.
+              </p>
+              <p className="services-p">
+                Having a great variety of products, I offer competitive
+                pricepoints and an excellent customer service.
+              </p>
+            </div>
+            <div className="row services-block">
+              <div className="col-md-6">
+                <h2>Search Engine Optimization Marketing Services </h2>
+                <p className="services-p">
+                  We develiver the latest in SEO technology and services, PPC
+                  and content marketing.
+                </p>
+                <p className="services-p">
+                  Together we will make your website receive more consumer
+                  traffic allowing the website to grow organically and rank
+                  higher in the Google Search Engine.
+                </p>
+              </div>
+              <div className="col-md-6">
+                <img className="s-image" src={seoImage} alt="" />
               </div>
             </div>
-          </div>
-        </div>
-        <div className="container info-block">
-          <h2 className="text-center title">Our services</h2>
-          <hr className="basic" />
-          <p className="text-center intro">
-            We specialize in purchase and shipment of equipment. We focus our
-            range of products vary from various important industries.
-          </p>
-
-          <div className="row title-paragraphs">
-            <div className="col-md-4 col-sm-12">
-              <i className="fas fa-envelope os-icon fa-4x" />
-              <h5>Cargo Freight & Door To Door Services</h5>
-              <hr className="basic" />
-            </div>
-            <div className="col-md-4 col-sm-12">
-              <i className="fas fa-globe-americas fa-4x os-icon" />
-              <h5>Worldwide Logistics & Distribution</h5>
-              <hr className="basic" />
-            </div>
-            <div className="col-md-4 col-sm-12">
-              <i className="fas fa-hand-holding-usd fa-4x os-icon" />
-              <h5>Purchase & Aquisition Of Equipment</h5>
-              <hr className="basic" />
-            </div>
-          </div>
-
-          <div className="row text-center">
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine1} alt="" /> */}
-              <h4>Heavy & Light Machines</h4>
-            </div>
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine2} alt="" /> */}
-              <h4>Engines for Machinery</h4>
-            </div>
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine3} alt="" /> */}
-              <h4>Construction Cranes Machines</h4>
-            </div>
-          </div>
-          <div className="row text-center">
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine4} alt="" /> */}
-              <h4>Hydraulic Hammers</h4>
-            </div>
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine5} alt="" /> */}
-              <h4>Forklifts</h4>
-            </div>
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine6} alt="" /> */}
-              <h4>Valves, Bombs & Compressors</h4>
-            </div>
-          </div>
-          <div className="row text-center">
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine7} alt="" /> */}
-              <h4>Portable Power Generator</h4>
-            </div>
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine8} alt="" /> */}
-              <h4>Boat Accesories & Repair Parts</h4>
-            </div>
-            <div className="col-md-4 col-sm-12 col-12">
-              {/* <img className="img-size m2" src={machine9} alt="" /> */}
-              <h4>Airplane Parts</h4>
+            <div className="row services-block">
+              <div className="col-md-6">
+                <img className="s-image" src={mobileApp} alt="" />
+              </div>
+              <div className="col-md-6">
+                <h2>Mobile Applications and Custome Software Coming Soon</h2>
+                <p className="services-p">
+                  Pretty soon we will be taking requests for mobile and custom
+                  software applications. Currently we can develop Android
+                  applications and in the near future iOS and more.
+                </p>
+                <p className="services-p">
+                  If there are any doubts please don't hesitate to contact Us.
+                </p>
+              </div>
             </div>
           </div>
         </div>
