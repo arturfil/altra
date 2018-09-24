@@ -27,7 +27,7 @@ class OurServices extends Component {
                 client's specific needs.
               </p>
               <p className="services-p">
-                Having a great variety of products, I offer competitive
+                Having a great variety of products, we offer competitive
                 pricepoints and an excellent customer service.
               </p>
             </div>
