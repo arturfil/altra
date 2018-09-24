@@ -6,12 +6,6 @@ const path = require('path');
 
 const app = express();
 
-// set api routes
-app.get('/', (req, res, next) => {
-  console.log('index route');
-  res.send('works');
-});
-
 // Body parser middleware
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
