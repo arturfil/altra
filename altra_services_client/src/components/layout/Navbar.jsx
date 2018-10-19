@@ -16,7 +16,7 @@ class Navbar extends Component {
               className="navbar-brand elegant btn-landing"
               style={{ color: 'rgba(0, 0, 0, 0.845)' }}
             >
-              Altra
+              2 Friends
             </a>
             <button
               className="navbar-toggler"

@@ -32,10 +32,14 @@
   letter-spacing: -2px;
 }
 
+.services-block h2 {
+  font-weight: 400;
+}
+
 .aboutUs-p {
   margin-top: 40px;
   text-align: justify;
   color: white;
-  font-weight: 200;
+  font-weight: 400;
   font-size: 20px;
 }
