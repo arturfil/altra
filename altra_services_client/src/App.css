@@ -7,12 +7,11 @@ img {
 }
 
 .landing {
-  min-height: 500px;
-  position: relative;
-  background: url('./img/connections.jpeg') no-repeat;
+  min-height: 900px;
+  /* position: relative;
+  background: url('./img/projects.jpeg') no-repeat;
   background-size: cover;
-  background-position: center;
-  min-height: 500px;
+  background-position: center; */
 }
 
 .dark-overlay {
