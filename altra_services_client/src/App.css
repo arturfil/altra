@@ -63,4 +63,8 @@ img {
   .img-logo {
     display: none;
   }
+
+  .about-us {
+    min-height: 600px;
+  }
 }

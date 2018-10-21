@@ -44,15 +44,15 @@ class OurServices extends Component {
                   higher in the Google Search Engine.
                 </p>
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-sm-12">
                 <img className="s-image" src={seoImage} alt="" />
               </div>
             </div>
             <div className="row services-block">
-              <div className="col-md-6">
+              <div className="col-md-6 col-sm-12">
                 <img className="s-image" src={mobileApp} alt="" />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-sm-12">
                 <h2>Mobile Applications and Custome Software Coming Soon</h2>
                 <p className="services-p">
                   Pretty soon we will be taking requests for mobile and custom

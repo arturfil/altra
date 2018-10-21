@@ -26,3 +26,9 @@
 .right {
   align-content: left;
 }
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    min-height: 500px
+  }
+}

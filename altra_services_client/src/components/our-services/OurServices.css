@@ -41,6 +41,7 @@
   text-transform: uppercase;
   font-weight: 200;
   letter-spacing: 3px;
+  text-align: justify;
 }
 
 .services-p {
@@ -54,4 +55,13 @@
 .s-image {
   height: 400px;
   width: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+  .s-image {
+    height: 200px;
+    width: 250px;
+    margin: 20px 15%;
+    text-align: center;
+  }
 }
