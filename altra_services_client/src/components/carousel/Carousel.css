@@ -43,3 +43,25 @@
   text-align: center;
   margin-top: 200px;
 } */
+
+
+@media only screen and (min-width: 900px) {
+}
+
+@media only screen and (max-width: 900px) and (min-width: 600px) {
+  .landing {
+    max-height: 600px;
+  }
+
+  .carousel-item img {
+    margin: 0 auto;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .carousel-item img {
+    margin: 0 auto;
+    height: 300px;
+  }
+}
