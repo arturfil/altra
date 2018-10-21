@@ -12,7 +12,7 @@ class AboutUs extends Component {
               <div className="row">
                 <div className="col-md-12 text-center">
                   <p className="intro-p">
-                    In Altra we beliebe in creativity, innovation and efficiency
+                    We beliebe in creativity, innovation and efficiency
                   </p>
                 </div>
                 <div className="container title" />

@@ -47,68 +47,38 @@ class ContactUs extends Component {
 
   onClick = () => {
     this.setState({ showMenu: true });
+    setTimeout(() => {
+      this.setState({ showMenu: false });
+    }, 3000);
   };
 
   render() {
-    return (
-      <div className="form-contact">
-        {this.state.showMenu ? (
-          <div className="container">
-            <div className="alert alert-success" role="alert">
-              Message was sent!
-            </div>
-          </div>
-        ) : null}
+    return <div className="form-contact">
         <h2 className="text-center title">Send us a message</h2>
         <hr className="basic" />
         <form onSubmit={this.onSubmit} className="text-center form-group">
-          <input
-            name="name"
-            className="form-size"
-            type="text"
-            placeholder="Name"
-            onChange={this.onChange}
-          />
+          <input name="name" className="form-size" type="text" placeholder="Name" onChange={this.onChange} />
           <br />
-          <input
-            name="email"
-            className="form-size"
-            type="text"
-            placeholder="Email"
-            onChange={this.onChange}
-          />
+          <input name="email" className="form-size" type="text" placeholder="Email" onChange={this.onChange} />
           <br />
-          <input
-            name="company"
-            className="form-size"
-            type="text"
-            placeholder="Company"
-            onChange={this.onChange}
-          />
+          <input name="company" className="form-size" type="text" placeholder="Company" onChange={this.onChange} />
           <br />
-          <input
-            name="phone"
-            className="form-size"
-            type="text"
-            placeholder="Phone"
-            onChange={this.onChange}
-          />
+          <input name="phone" className="form-size" type="text" placeholder="Phone" onChange={this.onChange} />
           <br />
-          <textarea
-            name="message"
-            className="form-area"
-            col="8"
-            type="text"
-            placeholder="Write your message here ..."
-            onChange={this.onChange}
-          />
+          <textarea name="message" className="form-area" col="8" type="text" placeholder="Write your message here ..." onChange={this.onChange} />
           <br />
+          {this.state.showMenu ? <div className="container">
+              <div className="alert alert-success alert-box" role="alert">
+                <div className="alert-box-content">
+                  Message was sent!
+                </div>
+              </div>
+            </div> : null}
           <button className="btn-form" onClick={this.onClick}>
             Send
           </button>
         </form>
-      </div>
-    );
+      </div>;
   }
 }
 
