@@ -12,7 +12,7 @@ class AboutUs extends Component {
               <div className="row">
                 <div className="col-md-12 text-center">
                   <p className="intro-p">
-                    We beliebe in creativity, innovation and efficiency
+                    We believe in creativity, innovation and efficiency
                   </p>
                 </div>
                 <div className="container title" />
@@ -27,9 +27,9 @@ class AboutUs extends Component {
             </div>
             <div className="col-md-6">
               <p className="aboutUs-p">
-                We deliver the latest in web development products and
-                Marketing strategies. Our products are unique and specific to
-                every clients industry and background.
+                We deliver the latest in web development products and Marketing
+                strategies. Our products are unique and specific to every
+                clients industry and background.
               </p>
             </div>
           </div>

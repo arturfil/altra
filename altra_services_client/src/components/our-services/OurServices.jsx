@@ -71,6 +71,13 @@ class OurServices extends Component {
               </div>
             </div>
           </div>
+          <div className="row">
+            <div className="col-md-12 link-route">
+              <h2 className="">Start working with us!</h2>
+              <hr className="basic" />
+              <button className="btn-services">Get in Contact</button>
+            </div>
+          </div>
         </div>
       </div>
     );
