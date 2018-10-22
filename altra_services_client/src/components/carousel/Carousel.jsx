@@ -27,7 +27,9 @@ export default class Carousel extends Component {
             <div className="carousel-item active">
               <div className="carousel-caption carousel-block d-none d-md-block">
                 <h2 className="carousel-h2">Web Development</h2>
-                <p className="p-dark">We re-design your point of entry</p>
+                <p className="p-dark">
+                  Just bring your idea, we'll bring it to life
+                </p>
               </div>
               <img className="d-block w-100" src={seoImage} alt="First slide" />
             </div>
@@ -35,7 +37,7 @@ export default class Carousel extends Component {
               <div class="carousel-caption carousel-block d-none d-md-block">
                 <h2 className="carousel-h2">SEO Strategy</h2>
                 <p className="p-light">
-                  We have the know how to improve consumer's traffic
+                  We have the know how to maximize your website's traffic
                 </p>
               </div>
               <img
@@ -48,7 +50,7 @@ export default class Carousel extends Component {
               <div class="carousel-caption carousel-block d-none d-md-block">
                 <h2 className="carousel-h2">Marketing</h2>
                 <p className="p-light">
-                  We provide a wide variety of marketing services
+                  We are your favorite full in-house Marketing agency
                 </p>
               </div>
               <img

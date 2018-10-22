@@ -12,7 +12,8 @@ class OurServices extends Component {
         <div className="container">
           <h2 className="s-title">Our Services</h2>
           <p className="p-title">
-            All Our Services Are custom made to specific client's needs!
+            We provide unique solutions that are customized to each of our
+            clients' specific needs.
           </p>
         </div>
         <div className="container">
