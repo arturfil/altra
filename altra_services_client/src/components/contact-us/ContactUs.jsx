@@ -54,7 +54,7 @@ class ContactUs extends Component {
 
   render() {
     return <div className="form-contact">
-        <h2 className="text-center title">Send us a message</h2>
+        <h2 className="text-center title">Lets work together!</h2>
         <hr className="basic" />
         <form onSubmit={this.onSubmit} className="text-center form-group">
           <input name="name" className="form-size" type="text" placeholder="Name" onChange={this.onChange} />
@@ -70,7 +70,7 @@ class ContactUs extends Component {
           {this.state.showMenu ? <div className="container">
               <div className="alert alert-success alert-box" role="alert">
                 <div className="alert-box-content">
-                  Message was sent!
+                  Success! We will be in touch with you shortly!
                 </div>
               </div>
             </div> : null}

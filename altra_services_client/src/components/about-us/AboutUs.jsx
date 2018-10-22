@@ -27,7 +27,7 @@ class AboutUs extends Component {
             </div>
             <div className="col-md-6">
               <p className="aboutUs-p">
-                We deliver the latest thing in web development products and
+                We deliver the latest in web development products and
                 Marketing strategies. Our products are unique and specific to
                 every clients industry and background.
               </p>

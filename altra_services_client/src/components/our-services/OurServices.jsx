@@ -23,25 +23,26 @@ class OurServices extends Component {
             <div className="col-md-6">
               <h2>Web Development</h2>
               <p className="services-p">
-                We create and cater websites and web applications custom made to
-                client's specific needs.
+                Creating a website is one of the intial and most important steps
+                on building your brand. Your website is the first impression and
+                the image that you give that out to the world.
               </p>
               <p className="services-p">
-                Having a great variety of products, we offer competitive
-                pricepoints and an excellent customer service.
+                We create and cater websites and web applications in the most
+                timely effective, efficient and affordable way.
               </p>
             </div>
             <div className="row services-block">
               <div className="col-md-6">
-                <h2>Search Engine Optimization Marketing Services </h2>
+                <h2>SEO Marketing Services </h2>
                 <p className="services-p">
-                  We develiver the latest in SEO technology and services, PPC
-                  and content marketing.
+                  Have you ever wondered how people reach to your website? Have
+                  you ever heard about SEO?
                 </p>
                 <p className="services-p">
-                  Together we will make your website receive more consumer
-                  traffic allowing the website to grow organically and rank
-                  higher in the Google Search Engine.
+                  Your website's Search Engine Optimization (or SEO) will help
+                  reduce the investment on paid ads, receive organic leads and
+                  get new customers.
                 </p>
               </div>
               <div className="col-md-6 col-sm-12">
@@ -53,15 +54,20 @@ class OurServices extends Component {
                 <img className="s-image" src={mobileApp} alt="" />
               </div>
               <div className="col-md-6 col-sm-12">
-                <h2>Mobile Applications and Custome Software Coming Soon</h2>
+                <h2>Software & Marketing Solutions</h2>
                 <p className="services-p">
-                  Pretty soon we will be taking requests for mobile and custom
-                  software applications. Currently we can develop Android
-                  applications and in the near future iOS and more.
+                  We offer custom in-house solutions ranging in:
                 </p>
-                <p className="services-p">
-                  If there are any doubts please don't hesitate to contact Us.
-                </p>
+                <ul>
+                  <li className="services-li">Creative Design</li>
+                  <li className="services-li">Google Adwords</li>
+                  <li className="services-li">Facebook Ads</li>
+                  <li className="services-li">Content Management</li>
+                </ul>
+                <ul>
+                  <li className="services-li">Mobile Applications</li>
+                  <li className="services-li">Software Applications</li>
+                </ul>
               </div>
             </div>
           </div>
