@@ -34,7 +34,7 @@ export default class Carousel extends Component {
               <img className="d-block w-100" src={seoImage} alt="First slide" />
             </div>
             <div className="carousel-item">
-              <div class="carousel-caption carousel-block d-none d-md-block">
+              <div className="carousel-caption carousel-block d-none d-md-block">
                 <h2 className="carousel-h2">SEO Strategy</h2>
                 <p className="p-light">
                   We have the know how to maximize your website's traffic
@@ -47,7 +47,7 @@ export default class Carousel extends Component {
               />
             </div>
             <div className="carousel-item">
-              <div class="carousel-caption carousel-block d-none d-md-block">
+              <div className="carousel-caption carousel-block d-none d-md-block">
                 <h2 className="carousel-h2">Marketing</h2>
                 <p className="p-light">
                   We are your favorite full in-house Marketing agency
