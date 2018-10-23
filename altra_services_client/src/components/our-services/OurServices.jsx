@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 import './OurServices.css';
 import seoImage from '../../img/seo-marketing.jpeg';
@@ -76,7 +77,11 @@ class OurServices extends Component {
             <div className="col-md-12 link-route">
               <h2 className="">Start working with us!</h2>
               <hr className="basic" />
-              <button className="btn-services">Get in Contact</button>
+              <Link to="/contactUs">
+                <button className="btn-services" href="/contactUs">
+                  Get in Contact
+                </button>
+              </Link>
             </div>
           </div>
         </div>
