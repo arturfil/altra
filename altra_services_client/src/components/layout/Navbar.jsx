@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Navbar.css';
-import icon from '../../img/2friends_icon.jpg'
+import icon from '../../img/logo_2_friends.jpg'
 
 // TODO: import logo
 
@@ -11,9 +11,15 @@ class Navbar extends Component {
     return <div>
         <nav className="navbar navbar-expand-sm navbar-light">
           <div className="container">
-            <a href="/" className="navbar-brand btn-landing" style={{ color: 'rgba(0, 0, 0, 0.845)' }}>
-              <img className="img-logo" src={icon} alt="" />
-              <h2>Two Friends Co.</h2>
+            <a href="/" className="navbar-brand btn-landing" style={{ color: 'rgba(0, 0, 0, 0.845)' }}> 
+              <div className="row">
+                <div className="col-md-6">
+                  <img className="img-logo" src={icon} alt="" />
+                </div>
+                <div className="col-md-6">
+                  <h2>Two Friends Co.</h2>
+                </div>
+              </div>
             </a>
             <button className="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
               <span className="navbar-toggler-icon" />
