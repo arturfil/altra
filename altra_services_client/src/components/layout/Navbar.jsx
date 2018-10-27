@@ -38,7 +38,7 @@ class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link hov-anim a-links" to="/aboutUs" style={{ color: 'rgba(0, 0, 0, 0.845)' }}>
-                    About Us
+                    Core Values
                   </Link>
                 </li>
                 <li className="nav-item">

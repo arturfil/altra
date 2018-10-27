@@ -94,11 +94,19 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  .p-title {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 30px;
+  }  
+
   .s-image {
     height: 200px;
     width: 250px;
     margin: 20px 15%;
     text-align: center;
+    display: none;
   }
 
   .p-title {
