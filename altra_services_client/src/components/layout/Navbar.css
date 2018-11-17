@@ -11,7 +11,7 @@ nav {
   margin-top: 20px;
   margin-left: -50px;
   margin-bottom: -10px;
-  font-family: 'Seaweed Script', cursive;
+  font-family: 'Rajdhani', sans-serif;
   color: rgb(238, 168, 16);
   font-size: 40px;
 }
@@ -48,10 +48,48 @@ navbar {
   position: fixed;
 }
 
+/* Navbar from code-pen */
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle {
+    border: none;
+}
+
+.navbar-toggle span.icon-bar {
+    transition: all 0.15s;
+}
+
+.navbar-toggle span:nth-child(2) {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+}
+
+.navbar-toggle span:nth-child(3) {
+    opacity: 0;
+}
+
+.navbar-toggle span:nth-child(4) {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed span:nth-child(2),
+.navbar-toggle.collapsed span:nth-child(4) {
+    transform: rotate(0);
+}
+
+.navbar-toggle.collapsed span:nth-child(3) {
+    opacity: 1;
+}
+
 @media only screen and (max-width: 1024px) and (min-width: 676px) {
 }
 
-@media only screen and (max-width: 676px) and (min-width: 330px) {
+@media only screen and (max-width: 676px) and (min-width: 451px) {
   .navbar-brand h2 {
     margin: 0 auto;
     text-align: center;
@@ -64,10 +102,16 @@ navbar {
   }
 }
 
-@media only screen and (max-width: 330px) {
+@media only screen and (max-width: 450px) {
   .navbar-brand h2 {
     margin: 0 auto;
     text-align: center;
-    font-size: 22px;
+    font-size: 30px;
+  }
+
+  .logo {
+    display: show;
+    height: 40px;
+    widows: 40px;
   }
 }

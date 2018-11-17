@@ -8,10 +8,11 @@
 }
 
 .carousel-h2 {
-  font-size: 80px;
-  font-weight: 300;
+  font-size: 60px;
+  padding: 5px 10px;
+  font-weight: 800;
   margin-top: -600px;
-  font-family: 'Seaweed Script', cursive;
+  font-family: 'Rajdhani', sans-serif;
   color: rgb(238, 168, 16);
 }
 
@@ -47,7 +48,7 @@
 @media only screen and (max-width: 1440px) and (min-width: 1024px) {
   .carousel-h2 {
     margin-right: 40px;
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .p-dark {
@@ -77,5 +78,10 @@
   .carousel-item img {
     margin: 0 auto;
     height: 300px;
+  }
+
+  .carousel-h2 {
+    font-size: 30px;
+    display: show;
   }
 }
