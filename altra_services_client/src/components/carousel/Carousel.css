@@ -1,6 +1,7 @@
 .carousel-item img {
   margin: 0 auto;
-  height: 500px;
+  width: 500px;
+  height: 300px;
 }
 
 .carousel-item {
@@ -8,31 +9,21 @@
 }
 
 .carousel-h2 {
-  font-size: 60px;
-  padding: 5px 10px;
-  font-weight: 800;
-  margin-top: 380px;
-  font-family: 'Rajdhani', sans-serif;
   color: rgb(238, 168, 16);
-}
-
-.p-dark {
-  margin-top: 160px;
   text-transform: uppercase;
-  font-size: 20px;
-  color: rgb(96, 96, 96);
-  font-weight: 400;
+  font-weight: 800;
+  font-size: 40px;
 }
 
 .p-light {
   margin-top: 260px;
   text-transform: uppercase;
-  font-size: 25px;
+  font-size: 35px;
+  font-weight: 800;
   max-width: 550px;
   min-height: 100px;
   margin: 0 auto;
-  color: white;
-  background: rgba(0, 0, 0, 0.4);
+  color: rgb(238, 168, 16);
   border-radius: 5px;
   padding: 40px 0px;
   font-weight: 400;
@@ -62,7 +53,6 @@
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
   .carousel-h2 {
-    margin-top: 30%;
     font-size: 30px;
     display: show;
   }
@@ -72,14 +62,11 @@
   }
 
   .carousel-item img {
-    margin: 0 auto;
-    height: 600px;
   }
 }
 
 @media only screen and (max-width: 600px) {
   .carousel-item img {
-    margin: 0 auto;
     height: 300px;
   }
 

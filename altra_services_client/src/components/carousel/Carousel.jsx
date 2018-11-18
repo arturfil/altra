@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import './Carousel.css';
-import seoImage from '../../img/projects.jpeg';
+import seoImage from '../../img/mobile_dev.png';
 import webDevelopment from '../../img/seo_google.jpeg';
 import mobileApp from '../../img/web_design.jpeg';
 
@@ -26,8 +26,7 @@ export default class Carousel extends Component {
           <div className="carousel-inner">
             <div className="carousel-item active">
               <div className="carousel-caption carousel-block d-none d-md-block">
-                <h2 className="carousel-h2">Web Development</h2>
-                <p className="p-dark">
+                <p className="p-light">
                   Just bring your idea, we'll bring it to life
                 </p>
               </div>
@@ -35,7 +34,6 @@ export default class Carousel extends Component {
             </div>
             <div className="carousel-item">
               <div className="carousel-caption carousel-block d-none d-md-block">
-                <h2 className="carousel-h2">SEO Strategy</h2>
                 <p className="p-light">
                   We have the know how to maximize your website's traffic
                 </p>
@@ -48,7 +46,6 @@ export default class Carousel extends Component {
             </div>
             <div className="carousel-item">
               <div className="carousel-caption carousel-block d-none d-md-block">
-                <h2 className="carousel-h2">Marketing</h2>
                 <p className="p-light">
                   We are your favorite full in-house Marketing agency
                 </p>

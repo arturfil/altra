@@ -33,8 +33,8 @@ class Landing extends Component {
               <i className="fas fa-cog" />
               <h2 className="p-landing">SEO</h2>
               <p>
-                We are a company that is proud for it's Search engine
-                optimization and Search Engine Management.
+                We are a company that is proud for it's Search Engine
+                Optimization and Search Engine Management.
               </p>
             </div>
             <div className="col-md-4 card-border">
@@ -64,6 +64,9 @@ class Landing extends Component {
           <h2 className="h2-parallax">
             We have the best customer satisfaction
           </h2>
+        </div>
+        <div className="container carousel">
+          <Carousel/>
         </div>
         <div className="container logos-block">
           <div className="row">
