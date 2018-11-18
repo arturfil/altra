@@ -9,7 +9,7 @@ class Footer extends Component {
             <div className="container">
               <div className="row">
                 <div className="col-md-6">
-                  <h2>Two Friends Co.</h2>
+                  <h2>OLog2</h2>
                 </div>
                 <div className="col-md-6">
                   <div className="row">

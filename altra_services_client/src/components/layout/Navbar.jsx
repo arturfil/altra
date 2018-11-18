@@ -9,15 +9,15 @@ import icon from '../../img/logo_2_friends.jpg'
 class Navbar extends Component {
   render() {
     return <div>
-        <nav className="navbar navbar-expand-sm navbar-light">
+        <nav className="navbar fixed-top navbar-expand-sm navbar-light">
           <div className="container">
             <a href="/" className="navbar-brand btn-landing" style={{ color: 'rgba(0, 0, 0, 0.845)' }}> 
               <div className="row">
                 <div className="col-md-6">
-                  <img className="img-logo" src={icon} alt="" />
+                  {/* <img className="img-logo" src={icon} alt="" /> */}
                 </div>
                 <div className="col-md-6">
-                  <h2>Two Friends Co.</h2>
+                  <h2>OLog2</h2>
                 </div>
               </div>
             </a>

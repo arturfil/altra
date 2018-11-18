@@ -1,5 +1,5 @@
 .s-title {
-  margin-top: 80px;
+  margin-top: 120px;
   margin-bottom: 40px;
   text-align: justify;
   font-weight: 700;
@@ -74,15 +74,21 @@
   margin-right: 20px;
   margin-bottom: 40px;
   background-color: rgb(238, 168, 16);
+  border-radius: 30px;
   color: white;
   height: 60px;
-  width: 130px;
+  width: 180px;
   font-size: 20px;
   border: none;
   text-transform: uppercase;
   text-align: center;
   display: inline-block;
   margin-top: 40px;
+}
+
+.btn-services:hover {
+  background-color: rgb(215, 151, 13);
+  color: black;
 }
 
 .link-route {

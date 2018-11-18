@@ -1,16 +1,13 @@
 nav {
   background-color: rgb(255, 255, 255);
-  position: fixed;
 }
 
 nav {
-  border-bottom: rgb(238, 168, 16) 4px solid;
+  /* border-bottom: rgb(238, 168, 16) 4px solid; */
 }
 
 .navbar-brand h2 {
   margin-top: 20px;
-  margin-left: -50px;
-  margin-bottom: -10px;
   font-family: 'Rajdhani', sans-serif;
   color: rgb(238, 168, 16);
   font-size: 40px;
