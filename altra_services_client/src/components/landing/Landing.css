@@ -102,6 +102,10 @@
   text-align: center;
 }
 
+/* cadrs css */
+
+/* cards css ending */
+
 @media only screen and (max-width: 767px) and (min-width: 600px) {
   .logos-block img {
     margin: 40px 0;
