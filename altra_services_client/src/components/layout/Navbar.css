@@ -3,7 +3,7 @@ nav {
 }
 
 nav {
-  /* border-bottom: rgb(238, 168, 16) 4px solid; */
+  border-bottom: rgb(238, 168, 16) 4px solid;
 }
 
 .navbar-brand h2 {
@@ -45,43 +45,61 @@ navbar {
   position: fixed;
 }
 
-/* Navbar from code-pen */
-
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
-    background-color: transparent;
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 
-.navbar-default .navbar-toggle {
-    border: none;
+/* Testing animation */
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+ 
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+ 
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+ 
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+ 
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+ 
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
 }
 
-.navbar-toggle span.icon-bar {
-    transition: all 0.15s;
-}
-
-.navbar-toggle span:nth-child(2) {
-    transform: rotate(45deg);
-    transform-origin: 10% 10%;
-}
-
-.navbar-toggle span:nth-child(3) {
-    opacity: 0;
-}
-
-.navbar-toggle span:nth-child(4) {
-    transform: rotate(-45deg);
-    transform-origin: 10% 90%;
-}
-
-.navbar-toggle.collapsed span:nth-child(2),
-.navbar-toggle.collapsed span:nth-child(4) {
-    transform: rotate(0);
-}
-
-.navbar-toggle.collapsed span:nth-child(3) {
-    opacity: 1;
-}
+/* Testing animation ending */
 
 @media only screen and (max-width: 1024px) and (min-width: 676px) {
 }

@@ -28,9 +28,13 @@ img {
 .about-us {
   position: relative;
   background: url('./img/altra_wallpaper.jpg') no-repeat;
+  min-height: 500px;
+
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 500px;
 }
 
 .form-control::placeholder {
@@ -54,7 +58,7 @@ img {
 
 @media only screen and (max-width: 600px) {
   .landing {
-    min-height: 300px;
+    min-height: 600px;
   }
 
   .navbar-brand {

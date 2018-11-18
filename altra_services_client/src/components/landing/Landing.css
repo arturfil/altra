@@ -1,5 +1,6 @@
 .h2-landing {
-  margin-top: 200px;
+  margin-right: 30px;
+  margin-top: 240px;
   font-family: 'Helvetica', sans-serif;
   font-size: 70px;
   text-align: center;
@@ -7,10 +8,33 @@
   color: rgb(238, 168, 16);
 }
 
-.landing-block {
-  margin-top: 80px;
+.landing p {
+  margin-top: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+
+.p-light {
+  margin-top: 260px;
+  text-transform: uppercase;
+  font-size: 25px;
+  max-width: 750px;
+  min-height: 100px;
+  margin: 0 auto;
+  color: white;
+  background: rgba(235, 172, 24, 0.557);
+  border-radius: 5px;
+  padding: 40px 0px;
+  font-weight: 400;
+}
+
+.landing-block {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
   background-color: white;
 }
 
@@ -41,15 +65,55 @@
   text-align: center;
 }
 
-.landing p {
-  margin-top: 20px;
-  text-align: center;
+.parallax-landing {
+  background: url('../../img/langing_2.jpg') no-repeat;
+  min-height: 500px;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: .7;
+}
+
+.h2-parallax {
+  padding-top: 200px;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 60px;
   text-transform: uppercase;
-  font-size: 28px;
-  color: rgb(252, 252, 252);
-  font-weight: 700;
+  text-align: center;
+  font-weight: 500;
+  color: rgb(238, 168, 16);
 }
 
 .img-height {
   max-height: 500px;
+}
+
+.logos {
+  max-height: 50px;
+  max-width: 90px;
+}
+
+.logos-block {
+  border-top: rgb(238, 168, 16);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+  .logos-block img {
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logos-block img {
+    margin: 40px 0;
+  }
+
+  .h2-parallax {
+    font-size: 45px;
+  }
 }

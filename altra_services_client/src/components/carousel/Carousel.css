@@ -1,6 +1,6 @@
 .carousel-item img {
   margin: 0 auto;
-  height: 900px;
+  height: 500px;
 }
 
 .carousel-item {
@@ -11,13 +11,13 @@
   font-size: 60px;
   padding: 5px 10px;
   font-weight: 800;
-  margin-top: -600px;
+  margin-top: 380px;
   font-family: 'Rajdhani', sans-serif;
   color: rgb(238, 168, 16);
 }
 
 .p-dark {
-  margin-top: 20px;
+  margin-top: 160px;
   text-transform: uppercase;
   font-size: 20px;
   color: rgb(96, 96, 96);
@@ -25,9 +25,12 @@
 }
 
 .p-light {
-  margin-top: 20px;
+  margin-top: 260px;
   text-transform: uppercase;
   font-size: 25px;
+  max-width: 550px;
+  min-height: 100px;
+  margin: 0 auto;
   color: white;
   background: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
