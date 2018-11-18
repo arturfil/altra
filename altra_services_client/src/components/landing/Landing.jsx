@@ -8,8 +8,8 @@ class Landing extends Component {
     return <div>
         <div className="landing">
           <div className="dark-overlay">
-            <h2 className="h2-landing">OLog2</h2>
-            <p className>Your digital solution's Company of choice</p>
+            <h2 className="h2-landing">Digital Solutions</h2>
+            <p className>Engaments, Leads & Conversions</p>
           </div>
         </div>
         <div className="container landing-block">

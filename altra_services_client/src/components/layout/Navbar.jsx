@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
 import './Navbar.css';
-import icon from '../../img/logo_2_friends.jpg'
+import icon from '../../img/Olog2.jpg'
 
 // TODO: import logo
 
@@ -14,10 +14,9 @@ class Navbar extends Component {
             <a href="/" className="navbar-brand btn-landing" style={{ color: 'rgba(0, 0, 0, 0.845)' }}> 
               <div className="row">
                 <div className="col-md-6">
-                  {/* <img className="img-logo" src={icon} alt="" /> */}
+                  <img className="img-logo" src={icon} alt="" />
                 </div>
                 <div className="col-md-6">
-                  <h2>OLog2</h2>
                 </div>
               </div>
             </a>
