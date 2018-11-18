@@ -11,7 +11,7 @@ class Navbar extends Component {
     return <div>
         <nav className="navbar fixed-top navbar-expand-sm navbar-light">
           <div className="container">
-            <a href="/" className="navbar-brand btn-landing" style={{ color: 'rgba(0, 0, 0, 0.845)' }}> 
+            <a href="/" className="navbar-brand btn-" style={{ color: 'rgba(0, 0, 0, 0.845)' }}> 
               <div className="row">
                 <div className="col-md-6">
                   <img className="img-logo" src={icon} alt="" />

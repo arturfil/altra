@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import Carousel from '../../components/carousel/Carousel';
 
 import './Landing.css';
@@ -10,9 +11,16 @@ import winCapital from '../../img/win-capital.png';
 import whws from '../../img/whws.png';
 import twoFriends from '../../img/logo_2_friends.jpg'
 
+
+
 class Landing extends Component {
+  componentDidMount = () => {
+    window.scrollTo(0, 0);
+  }
+
   render() {
-    return <div>
+    return (
+      <div>
         <div className="landing">
           <div className="dark-overlay">
             <h2 className="h2-landing">Digital Solutions</h2>
@@ -33,16 +41,21 @@ class Landing extends Component {
               <i className="fas fa-laptop-code" />
               <h2 className="p-landing">Software</h2>
               <p>
-                We produce all types of software development ranging from
-                web pages, web applications and mobile applications.
+                We produce all types of software development ranging from web
+                pages, web applications and mobile applications.
               </p>
+              <Link to="/ourServices">
+                <button className="btn-landing" href="/ourServices">
+                  learn more
+                </button>
+              </Link>
             </div>
             <div className="col-md-4 card-border">
               <i className="fas fa-mobile" />
               <h2 className="p-landing">Social Presence</h2>
               <p>
-                We help our clients to have a impactful social presence in
-                order to reach more consumers and returning clients.
+                We help our clients to have a impactful social presence in order
+                to reach more consumers and returning clients.
               </p>
             </div>
           </div>
@@ -74,9 +87,8 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-
-        
-      </div>;
+      </div>
+    );
   }
 }
 

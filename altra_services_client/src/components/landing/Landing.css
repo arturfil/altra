@@ -102,6 +102,23 @@
   text-align: center;
 }
 
+.btn-landing {
+  margin-top: 20px;
+  background-color: rgb(238, 168, 16);
+  padding: 10px;
+  color: white;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+.btn-landing:hover {
+  cursor: pointer;
+}
+
 /* cadrs css */
 
 /* cards css ending */

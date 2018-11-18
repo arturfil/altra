@@ -25,6 +25,14 @@
   color: white;
 }
 
+.footer-h2-link {
+  margin-left: -15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
 .left {
   align-content: right;
 }
