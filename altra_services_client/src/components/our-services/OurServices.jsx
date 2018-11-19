@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './OurServices.css';
 import seoImage from '../../img/seo-marketing.jpeg';
-import webDevelopment from '../../img/web_development.jpg';
+import webDevelopment from '../../img/web_development_ps.jpg';
 import mobileApp from '../../img/mobile_application.jpeg';
 
 class OurServices extends Component {
@@ -12,8 +12,7 @@ class OurServices extends Component {
   };
 
   render() {
-    return (
-      <div>
+    return <div>
         <div className="container">
           <h2 className="s-title">Our Services</h2>
           <p className="p-title">
@@ -29,28 +28,29 @@ class OurServices extends Component {
             <div className="col-md-6">
               <h2>Web Development</h2>
               <p className="services-p">
-                Creating a website is one of the intial and most important steps
-                on building your brand. Your website is the first impression and
-                the image that you give that out to the world.
+                Creating a website is one of the intial and most important
+                steps on building your brand. Your website is the first
+                impression and the image that you give that out to the
+                world.
               </p>
               <p className="services-p">
-                We create and cater websites and web applications in the most
-                timely effective, efficient and affordable way.
+                We create and cater websites and web applications in the
+                most timely effective, efficient and affordable way.
               </p>
             </div>
-            <hr className="b-line"/>
+            <hr className="b-line" />
             <img className="img-hidden" src={webDevelopment} alt="" />
             <div className="row services-block">
               <div className="col-md-6">
                 <h2>SEO Marketing Services </h2>
                 <p className="services-p">
-                  Have you ever wondered how people reach to your website? Have
-                  you ever heard about SEO?
+                  Have you ever wondered how people reach to your website?
+                  Have you ever heard about SEO?
                 </p>
                 <p className="services-p">
-                  Your website's Search Engine Optimization (or SEO) will help
-                  reduce the investment on paid ads, receive organic leads and
-                  get new customers.
+                  Your website's Search Engine Optimization (or SEO) will
+                  help reduce the investment on paid ads, receive organic
+                  leads and get new customers.
                 </p>
               </div>
               <div className="col-md-6 col-sm-12">
@@ -93,8 +93,7 @@ class OurServices extends Component {
             </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Carousel from '../../components/carousel/Carousel';
+import Card from '../../components/card/Card'
 
 import './Landing.css';
 
@@ -19,8 +19,7 @@ class Landing extends Component {
   }
 
   render() {
-    return (
-      <div>
+    return <div>
         <div className="landing">
           <div className="dark-overlay">
             <h2 className="h2-landing">Digital Solutions</h2>
@@ -41,8 +40,8 @@ class Landing extends Component {
               <i className="fas fa-laptop-code" />
               <h2 className="p-landing">Software</h2>
               <p>
-                We produce all types of software development ranging from web
-                pages, web applications and mobile applications.
+                We produce all types of software development ranging from
+                web pages, web applications and mobile applications.
               </p>
               <Link to="/ourServices">
                 <button className="btn-landing" href="/ourServices">
@@ -51,11 +50,11 @@ class Landing extends Component {
               </Link>
             </div>
             <div className="col-md-4 card-border">
-              <i className="fas fa-mobile" />
+              <i className="fas fa-cog" />
               <h2 className="p-landing">Social Presence</h2>
               <p>
-                We help our clients to have a impactful social presence in order
-                to reach more consumers and returning clients.
+                We help our clients to have a impactful social presence in
+                order to reach more consumers and returning clients.
               </p>
             </div>
           </div>
@@ -65,9 +64,84 @@ class Landing extends Component {
             We have the best customer satisfaction
           </h2>
         </div>
-        <div className="container carousel">
-          <Carousel/>
+
+        <div className="container cards-block">
+          <div className="row">
+            <div className="col-md-4">
+              <div className="flip-container">
+                <div className="flipper">
+                  <div className="front">
+                    <div className="container">
+                      <h2>SEO</h2>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="container">
+                      <h2>SEO</h2>
+                      <p>
+                        We will leverage the google search engine in order
+                        to make your website rank at a higher position than
+                        it's actual one.
+                      </p>
+                      <Link to="/ourServices">
+                        <button className="btn-learn">Learn More</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="flip-container">
+                <div className="flipper">
+                  <div className="front">
+                    <div className="container">
+                      <h2> Web Development </h2>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="container">
+                      <h2>Web Development</h2>
+                      <p>
+                        We use a different variety of technologies in order to deliver the best and most up to date product.
+                      </p>
+                      <Link to="/ourServices">
+                        <button className="btn-learn">Learn More</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="flip-container">
+                <div className="flipper">
+                  <div className="front">
+                    <div className="container">
+                      <h2>Point Per Click</h2>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="container">
+                      <h2>Point Per Click</h2>
+                      <p>
+                        It is very important to have different segments of our services for different 
+                        clients who have different needs, driving more traffic to 
+                        their websitesd.
+                      </p>
+                      <Link to="/ourServices">
+                        <button className="btn-learn">Learn More</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <hr className=""/>
+
         <div className="container logos-block">
           <div className="row">
             <div className="col-md-2">
@@ -90,8 +164,7 @@ class Landing extends Component {
             </div>
           </div>
         </div>
-      </div>
-    );
+      </div>;
   }
 }
 
