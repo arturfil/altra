@@ -163,6 +163,7 @@
   color: #333;
   border: 1px lightgrey solid;
   color: rgb(5, 45, 57);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.001);
 }
 
 .front h2 {
@@ -202,6 +203,7 @@
   transform: none;
   background-color: rgb(238, 168, 16);
   color: whitesmoke;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .back p {

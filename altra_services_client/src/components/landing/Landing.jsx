@@ -103,7 +103,8 @@ class Landing extends Component {
                     <div className="container">
                       <h2>Web Development</h2>
                       <p>
-                        We use a different variety of technologies in order to deliver the best and most up to date product.
+                        We use a different variety of technologies in order
+                        to deliver the best and most up to date product.
                       </p>
                       <Link to="/ourServices">
                         <button className="btn-learn">Learn More</button>
@@ -125,9 +126,82 @@ class Landing extends Component {
                     <div className="container">
                       <h2>Point Per Click</h2>
                       <p>
-                        It is very important to have different segments of our services for different 
-                        clients who have different needs, driving more traffic to 
-                        their websitesd.
+                        It is very important to have different segments of
+                        our services for different clients who have
+                        different needs, driving more traffic to their
+                        websitesd.
+                      </p>
+                      <Link to="/ourServices">
+                        <button className="btn-learn">Learn More</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="row">
+            <div className="col-md-4">
+              <div className="flip-container">
+                <div className="flipper">
+                  <div className="front">
+                    <div className="container">
+                      <h2>Facebook Ads</h2>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="container">
+                      <h2>Facebook Ads</h2>
+                      <p>
+                        We have the expertise and the know how in order to exploit the 
+                        Facebook ads frame work, we will maximize the views per ads.
+                      </p>
+                      <Link to="/ourServices">
+                        <button className="btn-learn">Learn More</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="flip-container">
+                <div className="flipper">
+                  <div className="front">
+                    <div className="container">
+                      <h2>Creative Design</h2>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="container">
+                      <h2>Creative Design</h2>
+                      <p>
+                        We have all types of services for creative desing ranging from front-end, 
+                        UX/UI to logos and brochures.
+                      </p>
+                      <Link to="/ourServices">
+                        <button className="btn-learn">Learn More</button>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4">
+              <div className="flip-container">
+                <div className="flipper">
+                  <div className="front">
+                    <div className="container">
+                      <h2>Software Development</h2>
+                    </div>
+                  </div>
+                  <div className="back">
+                    <div className="container">
+                      <h2>Point Per Click</h2>
+                      <p>
+                        We provide all type of Software Development for all type of needs. 
+                        We can do web applications, mobile applications and desktop applications.
                       </p>
                       <Link to="/ourServices">
                         <button className="btn-learn">Learn More</button>
@@ -140,7 +214,7 @@ class Landing extends Component {
           </div>
         </div>
 
-        <hr className=""/>
+        <hr className="" />
 
         <div className="container logos-block">
           <div className="row">
