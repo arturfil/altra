@@ -67,7 +67,7 @@ class Landing extends Component {
 
         <div className="container cards-block">
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="flip-container">
                 <div className="flipper">
                   <div className="front">
@@ -91,7 +91,7 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="flip-container">
                 <div className="flipper">
                   <div className="front">
@@ -114,7 +114,7 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="flip-container">
                 <div className="flipper">
                   <div className="front">
@@ -142,7 +142,7 @@ class Landing extends Component {
           </div>
 
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="flip-container">
                 <div className="flipper">
                   <div className="front">
@@ -165,7 +165,7 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="flip-container">
                 <div className="flipper">
                   <div className="front">
@@ -188,7 +188,7 @@ class Landing extends Component {
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-lg-4 col-md-12 col-sm-12">
               <div className="flip-container">
                 <div className="flipper">
                   <div className="front">
@@ -201,7 +201,7 @@ class Landing extends Component {
                       <h2>Point Per Click</h2>
                       <p>
                         We provide all type of Software Development for all type of needs. 
-                        We can do web applications, mobile applications and desktop applications.
+                        We can do web applications, mobile applications and desktop applications
                       </p>
                       <Link to="/ourServices">
                         <button className="btn-learn">Learn More</button>

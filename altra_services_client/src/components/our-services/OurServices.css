@@ -21,27 +21,6 @@
   color: grey;
 }
 
-.services-block1 {
-  text-align: center;
-  margin: 40px 0;
-  background-color: rgb(238, 168, 16);
-  color: whitesmoke;
-}
-
-.services-block2 {
-  text-align: center;
-  margin: 40px 0;
-  background-color: rgb(238, 105, 75);
-  color: whitesmoke;
-}
-
-.services-block3 {
-  text-align: center;
-  margin: 40px 0;
-  background-color: rgb(185, 25, 116);
-  color: whitesmoke;
-}
-
 .services-block h2 {
   margin-top: 40px;
   text-transform: uppercase;

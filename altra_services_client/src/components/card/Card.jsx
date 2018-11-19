@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 import "./Card.css";
 
@@ -8,29 +9,27 @@ export default function Card() {
     return <h2>{this.props.title}</h2>
   }
 
-  return (
-    <div>
-      <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
-        <div className="flipper">
-          <div className="front">
-            <div className="container">
-              <h2>{title}</h2>
-              <p>
-                <i className="large material-icons special">account_circle</i>
-              </p>
-              <p>
-                <i className=" material-icons">face</i>
-                5 Users Online</p>
-              <p className="bottom">Online</p>
+  return <div>
+          <div className="flip-container">
+            <div className="flipper">
+              <div className="front">
+                <div className="container">
+                  <h2> Web Development </h2>
+                </div>
+              </div>
+              <div className="back">
+                <div className="container">
+                  <h2>Web Development</h2>
+                  <p>
+                    We use a different variety of technologies in order to
+                    deliver the best and most up to date product.
+                  </p>
+                  <Link to="/ourServices">
+                    <button className="btn-learn">Learn More</button>
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="back">
-            <div className="container">
-              <p>User online correspond to people connected on your network</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  )
+    </div>;
 }

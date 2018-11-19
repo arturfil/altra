@@ -118,7 +118,6 @@
 
 .btn-learn {
   margin-top: 20px;
-  margin-left: 55px;
   background-color: white;
   padding: 10px;
   color: rgb(238, 168, 16);
@@ -152,13 +151,22 @@
   margin: 80px auto;
 }
 
+.card-row {
+  margin: 0 auto;
+}
+
+.single-card {
+  text-align: center;
+  margin: 0 auto;
+}
+
+
 /* ================ cadrs css ================== */
 
 
 .front {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: auto;
   backface-visibility: hidden;
   color: #333;
   border: 1px lightgrey solid;
@@ -196,6 +204,7 @@
 
 .back {
   position: absolute;
+  text-align: center;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
@@ -213,7 +222,7 @@
 }
 
 .flip-container {
-  margin-top: 40px;
+  margin: 20px auto;
   perspective: 1000px;
 }
 /* flip the pane when hovered */
@@ -259,16 +268,26 @@
 
 /* ================ cadrs css ENDS ================== */
 
+@media only screen and (max-width: 992px) and (min-width: 767px) {
+  .single-card {
+    width: 400px;
+  }
+}
+
 @media only screen and (max-width: 767px) and (min-width: 600px) {
   .logos-block img {
     margin: 40px 0;
   }
+
+ 
 }
 
 @media only screen and (max-width: 600px) {
   .logos-block img {
     margin: 40px 0;
   }
+
+  
 
   .h2-parallax {
     font-size: 45px;
