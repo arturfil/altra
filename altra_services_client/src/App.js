@@ -12,7 +12,23 @@ import AboutUs from './components/about-us/AboutUs';
 import './App.css';
 
 class App extends Component {
+  componentDidMount = () => {
+    window.scrollTo(0, 0);
+
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    },2000);
+  };
+
+  componentWillMount = () => {
+    
+    setTimeout(() => {
+      window.scrollTo(0, 0);
+    },2000)
+  };
+
   render() {
+
     return (
       <BrowserRouter>
         <div>

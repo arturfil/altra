@@ -38,7 +38,6 @@ class OurServices extends Component {
                 most timely effective, efficient and affordable way.
               </p>
             </div>
-            <hr className="b-line" />
             <img className="img-hidden" src={webDevelopment} alt="" />
             <div className="row services-block">
               <div className="col-md-6">
